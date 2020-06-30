@@ -1,0 +1,5 @@
+module WPXPNGC [system] {
+    umbrella header "WPXPNGC-umbrella.h"
+    link "c_src"
+    export *
+}
