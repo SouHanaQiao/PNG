@@ -2,10 +2,10 @@
 不使用系统API/imageIO的PNG swift解码与编码项目，可以跨平台使用
 
 ==============
-- 支持PNG规范。
+- 支持PNG, APNG规范。
 - 支持apple优化的CGBi格式
-- 支持RGB
-- 高效的动态内存缓存管理，以保证高性能低内存的动画播放。
-- 完全兼容 UIImage 和 UIImageView，使用方便。
-- 保留可扩展的接口，以支持自定义动画。
-- 每个类和方法都有完善的文档注释。
+- 支持RGB8, RGB16, RGBA8, RGBA16, V, VA等
+- 解码后能转成UIImage
+# TODU:
+==============
+- 未实现APNG编码
