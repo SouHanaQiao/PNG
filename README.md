@@ -1,5 +1,5 @@
 # 根据https://github.com/kelvin13/png
-PNG解码添加APNG的解码以及Apple压缩格式的PNG解码
+PNG解码添加APNG的解码以及Apple压缩格式的PNG解码, 并将扫描与像素处理改成C函数，以达到了iOS系统解码速度
 不使用系统API/imageIO的PNG swift解码与编码项目，可以跨平台使用
 
 ==============
