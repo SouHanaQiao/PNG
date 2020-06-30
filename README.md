@@ -1,4 +1,5 @@
-# PNG
+# 根据https://github.com/kelvin13/png
+PNG解码添加APNG的解码以及Apple压缩格式的PNG解码
 不使用系统API/imageIO的PNG swift解码与编码项目，可以跨平台使用
 
 ==============
